@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="slidestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Gadget Deals</title>
+</head>
+<body>
+    <header>
+        <div class="brand-container">
+            <a href="index.html"><img src="weblogo.png" alt="logo"></a>
+            <div>
+                <h2 class="brand-title">Gadget Deals</h2>
+                <h6 class="brand-title">Phones & Laptops</h6>
+            </div>
+        </div>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+            <nav class="navbar">
+                <ul class="menu">
+                    <li><a class="link" href="index.html">Home</a></li>
+                    <li><a class="link" href="aboutus.html">About Us</a></li>
+                    <li><a class="link" href="contact.html">Contact</a></li>
+                    <li><a class="link" id="addtocart" href="addtocart.html"><i class="fas fa-cart-plus cart-icon"></i></a></li>
+                    <li><a class="btn-link" href="loginregister.html">Log in</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section id="highlights">
+        <div class="container">
+            <div class="swiper tranding-slider">
+                <div class="swiper-wrapper">
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="highlight-item1.png" alt="Tranding">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <h1 class="product-price">₱23,999.00</h1>
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="product-name">
+                                    TECNO CAMON 30 Pro 5G
+                                </h2>
+                                <h3 class="product-rating">
+                                    <span>4.5</span>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="highlight-item3.png" alt="Tranding">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <h1 class="product-price">₱45,599.00</h1>
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="product-name">
+                                    ACER Aspire 7
+                                </h2>
+                                <h3 class="product-rating">
+                                    <span>4.5</span>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="highlight-item2.png" alt="Tranding">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <h1 class="product-price">₱4,599.00</h1>
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="product-name">
+                                    TECNO SPARK 20C
+                                </h2>
+                                <h3 class="product-rating">
+                                    <span>4.5</span>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                </div>
+
+                <div class="tranding-slider-control">
+                    <div class="swiper-button-prev slider-arrow">
+                        <ion-icon name="arrow-back-outline"></ion-icon>
+                    </div>
+                    <div class="swiper-button-next slider-arrow">
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+        <div class="search-container">
+            <div class="search-bar-wrapper">
+            </div>
+        </div>
+
+    <main>
+        <section class="products">
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="spark20.png" alt="TECNO SPARK 20">
+                            <h3>TECNO SPARK 20</h3>
+                            <p>₱4,499.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android 13</li>
+                                <li><b>Processor:</b> MediaTek Helio G85</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 8GB RAM</li>
+                                <li><b>Storage:</b> 256GB Storage(Extendable Upto 16GB)</li>
+                                <li><b>Display:</b> 6.56" Display <br> 90Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 32MP <br> Rear: 50MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="spark20c.png" alt="TECNO SPARK 20C">
+                            <h3>TECNO SPARK 20C</h3>
+                            <p>₱6,299.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android T</li>
+                                <li><b>Processor:</b> MediaTek Dimensity 9000</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 8GB RAM</li>
+                                <li><b>Storage:</b> 128GB Storage</li>
+                                <li><b>Display:</b> 6.6" Display <br> 90Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 8MP <br> Rear: 50MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="pova6pro.png" alt="TECNO POVA 6 Pro">
+                            <h3>TECNO POVA 6 Pro</h3>
+                            <p>₱11,999.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android 14</li>
+                                <li><b>Processor:</b> MediaTek Dimensity 6080</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 8GB RAM</li>
+                                <li><b>Storage:</b> 256GB Storage</li>
+                                <li><b>Display:</b> 6.78" Display <br> 120Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 32MP <br> Rear: 108MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="camon30.png" alt="TECNO CAMON 30 Pro 5g">
+                            <h3>TECNO CAMON 30 Pro 5G</h3>
+                            <p>₱19,999.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android 14</li>
+                                <li><b>Processor:</b> MediaTek Dimensity 8200 Ultimate</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 12GB RAM(Extendable Upto 24GB)</li>
+                                <li><b>Storage:</b> 512GB Storage</li>
+                                <li><b>Display:</b> 6.78" Display <br> 144Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 50MP <br> Rear: 50MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="phantomx2.png" alt="TECNO PHANTOM X2 Pro">
+                            <h3>TECNO PHANTOM X2 Pro</h3>
+                            <p>₱42,999.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android 12</li>
+                                <li><b>Processor:</b> MediaTek Dimensity 9000</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 12GB RAM</li>
+                                <li><b>Storage:</b> 256GB Storage</li>
+                                <li><b>Display:</b> 6.8" Display <br> 120Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 32MP <br> Rear: 50MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="c40.png" alt="POCO C40">
+                            <h3>POCO C40</h3>
+                            <p>₱5,990.00</p>   
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android 11</li>
+                                <li><b>Processor:</b> JLQ JR510</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 4GB RAM</li>
+                                <li><b>Storage:</b> 64GB Storage</li>
+                                <li><b>Display:</b> 6.71" Display <br> 60Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 5MP <br> Rear: 13MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="m3.png" alt="POCO M3">
+                            <h3>POCO M3</h3>
+                            <p>₱6,990.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android 10</li>
+                                <li><b>Processor:</b> Mediatek Dimensity 700</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 4GB RAM</li>
+                                <li><b>Storage:</b> 128GB Storage</li>
+                                <li><b>Display:</b> 6.53" Display <br> 90Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 8MP <br> Rear: 48MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="m5.png" alt="POCO M5">
+                            <h3>POCO M5</h3>
+                            <p>₱9,999.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android 12</li>
+                                <li><b>Processor:</b> MediaTek Helio G99</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 6GB RAM</li>
+                                <li><b>Storage:</b> 128GB Storage</li>
+                                <li><b>Display:</b> 6.58" Display <br> 90Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 5MP <br> Rear: 50MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="f2pro.png" alt="POCO F2 Pro">
+                            <h3>POCO F2 Pro</h3>
+                            <p>₱14,999.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android 12</li>
+                                <li><b>Processor:</b> Qualcomm SM8250 Snapdragon 865 5G</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 8GB RAM</li>
+                                <li><b>Storage:</b> 256GB Storage</li>
+                                <li><b>Display:</b> 6.67" Display <br> 180Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 20MP <br> Rear: 64MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="f5pro.png" alt="POCO F5 Pro">
+                            <h3>POCO F5 Pro</h3>
+                            <p>₱20,999.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android 13</li>
+                                <li><b>Processor:</b> Qualcomm SM8475 Snapdragon 8+ Gen 1</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 6GB RAM</li>
+                                <li><b>Storage:</b> 128GB Storage</li>
+                                <li><b>Display:</b> 6.67" Display <br> 120Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 16MP <br> Rear: 64MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="hot20s.png" alt="INFINIX HOT20s">
+                            <h3>INFINIX HOT20s</h3>
+                            <p>₱5,499.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android 12</li>
+                                <li><b>Processor:</b> Mediatek MT6781 Helio G96</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 8GB RAM</li>
+                                <li><b>Storage:</b> 128GB Storage</li>
+                                <li><b>Display:</b> 6.78" Display <br> 120Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 8MP <br> Rear: 50MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="hot30i.png" alt="INFINIX HOT30i">
+                            <h3>INFINIX HOT30i</h3>
+                            <p>₱5,599.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android 12</li>
+                                <li><b>Processor:</b> Unisoc T606</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 4GB RAM</li>
+                                <li><b>Storage:</b> 128GB Storage</li>
+                                <li><b>Display:</b> 6.56" Display <br> 90Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 8MP <br> Rear: 13MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="note30.png" alt="INFINIX NOTE 30">
+                            <h3>INFINIX NOTE 30</h3>
+                            <p>₱7,990.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android 13</li>
+                                <li><b>Processor:</b> Mediatek Helio G99</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 8GB RAM</li>
+                                <li><b>Storage:</b> 128GB Storage</li>
+                                <li><b>Display:</b> 6.78" Display <br> 120Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 16MP <br> Rear: 64MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="zeroultra.png" alt="INFINIX ZERO ULTRA">
+                            <h3>INFINIX ZERO ULTRA</h3>
+                            <p>₱11,199.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Specs</h3>
+                            <ul>
+                                <li><b>Operating System:</b> Android 12</li>
+                                <li><b>Processor:</b> Mediatek Dimensity 920</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 8GB RAM</li>
+                                <li><b>Storage:</b> 256GB Storage</li>
+                                <li><b>Display:</b> 6.8" Display <br> 120Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 32MP <br> Rear: 200MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="gt20pro.png" alt="INFINIX GT20 Pro">
+                            <h3>INFINIX GT20 Pro</h3>
+                            <p>₱15,999.00</p>
+                            <p>Click to View the Specs</p>
+                        </div>
+                        <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Android 14</li>
+                                <li><b>Processor:</b> Mediatek Dimensity 8200 Ultimate</li>
+                                <li><b>Connectivity:</b> 2.4G/5G</li>
+                                <li><b>Memory:</b> 8GB RAM</li>
+                                <li><b>Storage:</b> 256GB Storage</li>
+                                <li><b>Display:</b> 6.78" Display <br> 144Hz Refresh Rate</li>
+                                <li><b>Camera:</b> Front: 32MP <br> Rear: 108MP</li>
+                                <li><b>USB Port:</b> USB Type-C</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="hp14.png" alt="HP 14">
+                        <h3>HP 14</h3>
+                        <p>₱18,495.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 10 Home</li>
+                            <li><b>Processor:</b> AMD Ryzen 3-3250U</li>
+                            <li><b>Memory:</b> 4GB RAM</li>
+                            <li><b>Storage:</b> 128GB Storage</li>
+                            <li><b>Display:</b> 14" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="hp15.png" alt="HP 15">
+                        <h3>HP 15</h3>
+                        <p>₱23,995.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11 Home</li>
+                            <li><b>Processor:</b> Intel Core i3-1115G4</li>
+                            <li><b>Memory:</b> 8GB RAM</li>
+                            <li><b>Storage:</b> 256GB Storage</li>
+                            <li><b>Display:</b> 15.6" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="hp250.png" alt="HP 250 G8">
+                        <h3>HP 250 G8</h3>
+                        <p>₱24,773.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11 Pro</li>
+                            <li><b>Processor:</b> Intel Core i3-10050G1</li>
+                            <li><b>Memory:</b> 4GB RAM</li>
+                            <li><b>Storage:</b> 1TB Storage</li>
+                            <li><b>Display:</b> 15.6" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="hpvictus.png" alt="HP Victus 15">
+                        <h3>HP Victus 15</h3>
+                        <p>₱44,495.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11 Pro</li>
+                            <li><b>Processor:</b> AMD Ryzen™ 5 5600H</li>
+                            <li><b>Memory:</b> 8GB RAM</li>
+                            <li><b>Storage:</b> 512TB Storage</li>
+                            <li><b>Display:</b> 15.6" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="hpenvy.png" alt="HP Envy x360">
+                        <h3>HP Envy x360</h3>
+                        <p>₱48,995.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11 Home</li>
+                            <li><b>Processor:</b> Intel Core i7</li>
+                            <li><b>Memory:</b> 16GB RAM</li>
+                            <li><b>Storage:</b> 1TB Storage</li>
+                            <li><b>Display:</b> 14" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="aspire3.png" alt="ACER Aspire 3">
+                        <h3>ACER Aspire 3 A314</h3>
+                        <p>₱25,649.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11 Home</li>
+                            <li><b>Processor:</b> Intel Processor N200</li>
+                            <li><b>Memory:</b> 8GB RAM</li>
+                            <li><b>Storage:</b> 512GB Storage</li>
+                            <li><b>Display:</b> 14" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="aspirelite14.png" alt="ACER Aspire Lite 14">
+                        <h3>ACER Aspire Lite 14</h3>
+                        <p>₱26,599.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11 Home</li>
+                            <li><b>Processor:</b> Intel Core N300</li>
+                            <li><b>Memory:</b> 8GB RAM</li>
+                            <li><b>Storage:</b> 512GB Storage</li>
+                            <li><b>Display:</b> 14" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="acergo.png" alt="ACER Aspire GO">
+                        <h3>ACER Aspire Go</h3>
+                        <p>₱28,499.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11 Home</li>
+                            <li><b>Processor:</b> AMD Ryzen 5</li>
+                            <li><b>Memory:</b> 8GB RAM</li>
+                            <li><b>Storage:</b> 512GB Storage</li>
+                            <li><b>Display:</b> 14" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="aspirelite15.png" alt="ACER Aspire Lite 15">
+                        <h3>ACER Aspire Lite 15</h3>
+                        <p>₱32,299.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11 Home</li>
+                            <li><b>Processor:</b> Intel Core i5</li>
+                            <li><b>Memory:</b> 8GB RAM</li>
+                            <li><b>Storage:</b> 512GB Storage</li>
+                            <li><b>Display:</b> 15.6" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="aceraspire7.png" alt="ACER Aspire 7">
+                        <h3>ACER Aspire 7</h3>
+                        <p>₱45,599.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11 Home</li>
+                            <li><b>Processor:</b> Intel Core i5</li>
+                            <li><b>Memory:</b> 8GB RAM</li>
+                            <li><b>Storage:</b> 1TB Storage</li>
+                            <li><b>Display:</b> 15.6" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="modern15.png" alt="MSI MODERN 15">
+                        <h3>MSI MODERN 15</h3>
+                        <p>₱34,999.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11</li>
+                            <li><b>Processor:</b> AMD Ryzen5 7530U</li>
+                            <li><b>Memory:</b> 16GB RAM</li>
+                            <li><b>Storage:</b> 512GB Storage</li>
+                            <li><b>Display:</b> 15.6" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="gf63.png" alt="MSI GF63 Thin 15">
+                        <h3>MSI GF63 Thin 15</h3>
+                        <p>₱44,999.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11</li>
+                            <li><b>Processor:</b> Intel i5 13420H</li>
+                            <li><b>Memory:</b> 8GB RAM</li>
+                            <li><b>Storage:</b> 512GB Storage</li>
+                            <li><b>Display:</b> 15.6" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="prestige14.png" alt="MSI Prestige 14 Ai Evo">
+                        <h3>MSI Prestige 14 AI Evo</h3>
+                        <p>₱54,999.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11 Pro</li>
+                            <li><b>Processor:</b> Intel Ultra 7</li>
+                            <li><b>Memory:</b> 16GB RAM</li>
+                            <li><b>Storage:</b> 1TB Storage</li>
+                            <li><b>Display:</b> 14" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="cyborg15.png" alt="MSI CYBORG 15">
+                        <h3>MSI CYBORG 15</h3>
+                        <p>₱72,999.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11</li>
+                            <li><b>Processor:</b> Intel i7 12650H</li>
+                            <li><b>Memory:</b> 16GB RAM</li>
+                            <li><b>Storage:</b> 512GB Storage</li>
+                            <li><b>Display:</b> 14" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div class="product">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="katanaa15.png" alt="MSI KATANA A15">
+                        <h3>MSI KATANA A15</h3>
+                        <p>₱74,999.00</p>
+                        <p>Click to View the Specs</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Specs</h3>
+                        <ul>
+                            <li><b>Operating System:</b> Windows 11</li>
+                            <li><b>Processor:</b> AMD R7 8845HS</li>
+                            <li><b>Memory:</b> 16GB RAM</li>
+                            <li><b>Storage:</b> 512GB Storage</li>
+                            <li><b>Display:</b> 15.6" Display</li>
+                            <li><b>Warranty:</b> 2 Years Warranty</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </section>
+</main>
+<footer>
+    <p>&copy; 2024 Gadget Deals. All rights reserved.</p>
+    <p><a href="ratepage.html">Rate Us</a></p>
+</footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
